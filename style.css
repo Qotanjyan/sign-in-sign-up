@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sign_up,
+.sign_in {
+    border: rgb(79 76 124) solid 5px;
+    border-radius: 100px;
+}
+
+.sign_up {
+    background: linear-gradient(-45deg, rgb(103 65 167 / 77%), rgb(221, 221, 221));
+}
+
+.sign_in {
+    background: linear-gradient(330deg, rgb(221, 221, 221), rgb(103 65 167 / 77%));
+}
+
+.sign_up_img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: opacity(80%);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.sign_in_img {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: opacity(70%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+h1,
+h3,
+h6 {
+    text-align: center;
+}
+
+h1,
+h3 {
+    color: rgb(72, 72, 72);
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+input {
+    text-align: center;
+    width: 86%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+i {
+    text-align: center;
+    border-radius: 50px;
+    line-height: 40px;
+    color: rgb(72, 72, 72);
+    font-size: 25px;
+}
+
+.input_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.form-group {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(243, 243, 252, 0.501);
+    margin: 10px 0;
+    border-radius: 55px;
+    padding: 0.4rem;
+}
+
+.btn {
+    background-color: #fff670f2;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 95);
+    color: black;
+}
+
+.social_sites {
+    display: block;
+    text-align: center;
+}
+
+.social_sites>i {
+    padding: 5px 10px;
+    background-color: rgb(243, 243, 252, 0.501);
+}
+
+.bi-facebook:hover {
+    cursor: pointer;
+    color: #09469b;
+    ;
+}
+
+.bi-twitter:hover {
+    cursor: pointer;
+    color: rgb(45, 129, 246);
+}
+
+.bi-google:hover {
+    cursor: pointer;
+    color: red;
+}
